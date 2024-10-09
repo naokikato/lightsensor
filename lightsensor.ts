@@ -8,6 +8,6 @@ namespace IMLlightsensor {
     //% block="明るさ %pin"
     //% weight=100   
     export function getLight(pin: AnalogPin): number {
-        return Math.round( pins.analogReadPin(pin)/1024*1000 )/10
+        return Math.round( pins.analogReadPin(pin)/800*1000 )/10
     }
 }
