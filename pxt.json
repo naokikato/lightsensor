@@ -1,6 +1,6 @@
 {
     "name": "lightsensor",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "GROVE 光センサ （Light Sensor v1.2）",
     "dependencies": {
         "core": "*",
