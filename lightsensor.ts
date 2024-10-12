@@ -28,13 +28,13 @@ namespace IML_lightsensor {
         startListening()
     }
     //% block
-    //% block="光センサの出力が閾値以上になったとき"
+    //% block="明るさが閾値以上になったとき"
     //% weight=80 color=#3fbc41
     export function onLightDetected1(handler: () => void) {
         control.onEvent(LIGHT_EVENT_ID1, EventBusValue.MICROBIT_EVT_ANY, handler);
     }
     //% block
-    //% block="光センサの出力が閾値以下になったとき"
+    //% block="明るさが閾値以下になったとき"
     //% weight=70 color=#3fbc41
     export function onLightDetected2(handler: () => void) {
         control.onEvent(LIGHT_EVENT_ID2, EventBusValue.MICROBIT_EVT_ANY, handler);
